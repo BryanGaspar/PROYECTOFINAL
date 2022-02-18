@@ -10,6 +10,8 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.Color;
 import javax.swing.SwingConstants;
+import javax.swing.JButton;
+import javax.swing.UIManager;
 
 public class Inicio extends JFrame {
 
@@ -35,6 +37,7 @@ public class Inicio extends JFrame {
 	 * Create the frame.
 	 */
 	public Inicio() {
+		setTitle("BIENVENIDO");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -50,19 +53,34 @@ public class Inicio extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("INTEGRANTES:");
-		lblNewLabel_1.setBounds(177, 67, 87, 14);
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 14));
+		lblNewLabel_1.setBounds(165, 54, 109, 22);
 		contentPane.add(lblNewLabel_1);
 		
-		JLabel lblNewLabel_1_1 = new JLabel("INTEGRANTES:");
-		lblNewLabel_1_1.setBounds(177, 100, 87, 14);
+		JLabel lblNewLabel_1_1 = new JLabel("BRYAN GASPAR");
+		lblNewLabel_1_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNewLabel_1_1.setBounds(175, 87, 99, 14);
 		contentPane.add(lblNewLabel_1_1);
 		
-		JLabel lblNewLabel_1_2 = new JLabel("INTEGRANTES:");
-		lblNewLabel_1_2.setBounds(177, 132, 87, 14);
+		JLabel lblNewLabel_1_2 = new JLabel("BRIAN BASTIDAS");
+		lblNewLabel_1_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNewLabel_1_2.setBounds(175, 112, 99, 14);
 		contentPane.add(lblNewLabel_1_2);
 		
-		JLabel lblNewLabel_1_3 = new JLabel("INTEGRANTES:");
-		lblNewLabel_1_3.setBounds(177, 156, 87, 14);
+		JLabel lblNewLabel_1_3 = new JLabel("CARLOS APARICIO");
+		lblNewLabel_1_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNewLabel_1_3.setBounds(165, 137, 119, 14);
 		contentPane.add(lblNewLabel_1_3);
+		
+		JLabel lblNewLabel_1_3_1 = new JLabel("ALESSANDRO GRACIA");
+		lblNewLabel_1_3_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNewLabel_1_3_1.setBounds(165, 162, 126, 14);
+		contentPane.add(lblNewLabel_1_3_1);
+		
+		JButton btnNewButton = new JButton("INICIAR");
+		btnNewButton.setBackground(UIManager.getColor("Button.focus"));
+		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 14));
+		btnNewButton.setBounds(142, 189, 149, 46);
+		contentPane.add(btnNewButton);
 	}
 }
