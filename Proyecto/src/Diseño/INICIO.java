@@ -13,7 +13,7 @@ import javax.swing.SwingConstants;
 import javax.swing.JButton;
 import javax.swing.UIManager;
 
-public class Inicio extends JFrame {
+public class INICIO extends JFrame {
 
 	private JPanel contentPane;
 
@@ -24,7 +24,7 @@ public class Inicio extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Inicio frame = new Inicio();
+					INICIO frame = new INICIO();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -36,7 +36,7 @@ public class Inicio extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Inicio() {
+	public INICIO() {
 		setTitle("BIENVENIDO");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
