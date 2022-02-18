@@ -128,7 +128,7 @@ public class LOGIN extends JFrame {
 		btnIngresar.setBounds(268, 238, 267, 46);
 		contentPane.add(btnIngresar);
 		
-		JProgressBar progressBar = new JProgressBar();
+		progressBar = new JProgressBar();
 		progressBar.setBounds(193, 314, 431, 20);
 		contentPane.add(progressBar);
 	}
