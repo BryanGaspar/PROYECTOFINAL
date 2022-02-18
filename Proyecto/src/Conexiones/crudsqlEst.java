@@ -1,15 +1,10 @@
 package Conexiones;
-import java.sql.*;
-
+import java.sql.*; 
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-
 import com.mysql.cj.jdbc.result.ResultSetMetaData;
-
 import Clases.Estudiante;
-
 import Clases.administradores;
-
 
 public class crudsqlEst extends Conexion {
 	public boolean registrarEst(Estudiante est) {
