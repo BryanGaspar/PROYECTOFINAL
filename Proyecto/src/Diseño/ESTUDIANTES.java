@@ -32,7 +32,7 @@ public class ESTUDIANTES extends JInternalFrame {
 		getContentPane().setLayout(null);
 		
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane.setBounds(10, 27, 788, 494);
+		tabbedPane.setBounds(10, 11, 788, 494);
 		getContentPane().add(tabbedPane);
 		
 		JPanel panel = new JPanel();
