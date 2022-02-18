@@ -53,28 +53,33 @@ public class Inicio extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("INTEGRANTES:");
+		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblNewLabel_1.setBounds(165, 54, 109, 22);
+		lblNewLabel_1.setBounds(155, 54, 129, 22);
 		contentPane.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_1_1 = new JLabel("BRYAN GASPAR");
+		lblNewLabel_1_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		lblNewLabel_1_1.setBounds(175, 87, 99, 14);
+		lblNewLabel_1_1.setBounds(165, 87, 99, 14);
 		contentPane.add(lblNewLabel_1_1);
 		
 		JLabel lblNewLabel_1_2 = new JLabel("BRIAN BASTIDAS");
+		lblNewLabel_1_2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		lblNewLabel_1_2.setBounds(175, 112, 99, 14);
+		lblNewLabel_1_2.setBounds(165, 112, 99, 14);
 		contentPane.add(lblNewLabel_1_2);
 		
 		JLabel lblNewLabel_1_3 = new JLabel("CARLOS APARICIO");
+		lblNewLabel_1_3.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		lblNewLabel_1_3.setBounds(165, 137, 119, 14);
+		lblNewLabel_1_3.setBounds(155, 137, 119, 14);
 		contentPane.add(lblNewLabel_1_3);
 		
 		JLabel lblNewLabel_1_3_1 = new JLabel("ALESSANDRO GRACIA");
+		lblNewLabel_1_3_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_3_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		lblNewLabel_1_3_1.setBounds(165, 162, 126, 14);
+		lblNewLabel_1_3_1.setBounds(155, 164, 126, 14);
 		contentPane.add(lblNewLabel_1_3_1);
 		
 		JButton btnNewButton = new JButton("INICIAR");
